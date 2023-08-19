@@ -1,9 +1,8 @@
 function sumWithClosure(firstNum = 0) {
-    
     return function secondNum(secondNum = 0) {
-      return firstNum + secondNum
-    }
-
+        return firstNum + secondNum;
+    };
 }
 
-console.log(sumWithClosure(2)(3))
+console.log(sumWithClosure(2)(3));
+console.log(sumWithClosure(2)(3));
