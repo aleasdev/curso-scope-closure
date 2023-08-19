@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="style.css" />
+        <title>SuperMarket</title>
+    </head>
+    <body>
+        <header>
+            <h2 id="title">Simple closure and scope examples</h2>
+        </header>
+
+        <main>
+            <article>
+                <h2>Add items</h2>
+                <div class="input product-input">
+                    <div>
+                        <label for="">Product</label>
+                        <input id="product-name-input" type="text" />
+                    </div>
+                    <div>
+                        <label for="">Price</label>
+                        <input id="product-price-input" type="number" />
+                    </div>
+                </div>
+                <div class="product-button">
+                    <button id="product-add-button">Add</button>
+                </div>
+            </article>
+
+            <article>
+                <h2>Products</h2>
+                <div id="product-in-cart">Add something!</div>
+                <div>
+                    <h2>Total: <span id="total-carrito">0</span></h2>
+                </div>
+            </article>
+        </main>
+    </body>
+
+    <script src="./script.js"></script>
+</html>
