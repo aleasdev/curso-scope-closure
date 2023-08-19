@@ -11,11 +11,10 @@ function bestFruit() {
 }
 bestFruit();
 
-
 // cuidado con esto
 function countries() {
-    country = 'Chile';  // esto asigna una variable global
+    country = "Chile"; // esto asigna una variable global
     console.log(country);
 }
-countries()
-console.log(country)
+countries();
+console.log(country);
