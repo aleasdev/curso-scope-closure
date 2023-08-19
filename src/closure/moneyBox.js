@@ -1,14 +1,14 @@
-function moneyBox(coins) {
+function moneyBox() {
     let box = 0;
-    function cashin() {
+    return function cashin(money) {
         console.log("cashin");
-        box += coins;
-        return 
-    }
-    return cashin();
+        box += money;
+        return box;
+    };
 }
 
-console.log(moneyBox(0));
-console.log(moneyBox(2));
-console.log(moneyBox(4));
-console.log(moneyBox(20));
+let moneybox1 = moneyBox();
+console.log(moneybox1(1));
+console.log(moneybox1(10));
+
+let moneybox2 = moneyBox();
